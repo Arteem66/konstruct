@@ -167,8 +167,10 @@ body {
   left: 15px;
 }
 
+
 /* ==================CAPABIKITIES================= */
 /* ==================CAPABIKITIES================= */
+
 
 .capabilities {}
 
@@ -246,4 +248,42 @@ body {
   font-size: 13px;
   line-height: 23px;
   letter-spacing: 0.188px;
+}
+
+/* ==================CAPABIKITIES================= */
+/* ==================CAPABIKITIES================= */
+
+.sandbox {
+  background: url(../img/bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.sandbox__wrapper {
+  padding: 120px 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.sandbox__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  max-width: 350px;
+}
+
+.sandbox__button {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 11px 29px;
+  background-color: #00A4E5;
+  display: block;
+
+  line-height: normal;
+  letter-spacing: 0.5px;
 }
