@@ -21,8 +21,23 @@ body {
   color: #48555B;
 }
 
+.head__title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.306px;
+  margin-bottom: 10px;
+}
+
+.head__line {
+  background-color: #00A4E5;
+  height: 2px;
+  width: 50px;
+}
+
+
 /* ==================HEADER================= */
 /* ==================HEADER================= */
+
 
 .header__top {
   display: flex;
@@ -49,8 +64,10 @@ body {
   letter-spacing: 3.7px;
 }
 
+
 /* ==================NAVIGATION================= */
 /* ==================NAVIGATION================= */
+
 
 .nav__wrapper {
   display: flex;
@@ -80,11 +97,13 @@ body {
   height: 1px;
 }
 
+
 /* ==================STORY================= */
 /* ==================STORY================= */
 
+
 .story__wrapper {
-  padding: 60px 0 120px;
+  padding: 60px 0 60px;
 }
 
 .story__head {
@@ -92,19 +111,6 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
-}
-
-.story__title {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 2.306px;
-  margin-bottom: 10px;
-}
-
-.head__line {
-  background-color: #00A4E5;
-  height: 2px;
-  width: 50px;
 }
 
 .story__body {
@@ -159,4 +165,85 @@ body {
   position: absolute;
   top: 15px;
   left: 15px;
+}
+
+/* ==================CAPABIKITIES================= */
+/* ==================CAPABIKITIES================= */
+
+.capabilities {}
+
+.capab__wrapper {
+  padding: 60px 0 60px;
+}
+
+.capab__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.capab__head {}
+
+.capab__dop {
+  display: flex;
+  gap: 60px;
+}
+
+.capab__text {
+  max-width: 405px;
+  color: #48555B;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+.capab__button {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 11px 29px;
+  background-color: #00A4E5;
+  display: block;
+
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+
+.capab__services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service {
+  border: 1px solid #E6E6E6;
+  max-width: 300px;
+}
+
+.service__link {
+  padding: 38px 20px;
+  display: block;
+}
+
+.service__img {
+  margin-bottom: 25px;
+}
+
+.service__descr {
+  width: 100%;
+}
+
+.service__name {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.427px;
+  margin-bottom: 13px;
+}
+
+.service__text {
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.188px;
 }
