@@ -313,4 +313,83 @@ body {
   padding: 10px 16px;
 }
 
-.button {}
+
+/* ==================FOOTER================= */
+/* ==================FOOTER================= */
+
+.footer__content {
+  padding: 45px 0;
+  background-color: #141A20;
+  color: #fff;
+  font-size: 14px;
+}
+
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.content__title {
+  letter-spacing: 0.846px;
+}
+
+.company__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.company__wrapper img {
+  max-width: 110px;
+}
+
+.company__wrapper p {
+  max-width: 250px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+}
+
+.links__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
+
+.links__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__wrapper {
+  display: flex;
+  gap: 45px;
+}
+
+.contact__column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 140px;
+}
+
+.social__contact {
+  display: flex;
+  gap: 25px;
+  align-items: start;
+}
+
+
+.footer__right {
+  padding: 23px 0;
+  background-color: #171819;
+  text-align: center;
+  color: #FFF;
+}
