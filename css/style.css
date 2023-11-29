@@ -129,6 +129,7 @@ body {
 .story__body {
   display: flex;
   justify-content: space-between;
+  align-items: start;
 }
 
 .story__info {
@@ -150,7 +151,6 @@ body {
 }
 
 .story__descr {
-  font-size: 13px;
   line-height: 23px;
   letter-spacing: 0.188px;
 }
@@ -202,9 +202,9 @@ body {
 }
 
 .capab__text {
-  max-width: 405px;
+  max-width: 460px;
   color: #48555B;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.2px;
 }
@@ -218,7 +218,7 @@ body {
 
 .service {
   border: 1px solid #E6E6E6;
-  max-width: 300px;
+  max-width: 310px;
 }
 
 .service__link {
@@ -242,7 +242,7 @@ body {
 }
 
 .service__text {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 23px;
   letter-spacing: 0.188px;
 }
@@ -271,6 +271,14 @@ body {
   line-height: 36px;
   letter-spacing: 0.15px;
   max-width: 350px;
+}
+
+.sandbox__button {
+  width: 170px;
+  padding: 20px 0;
+  color: #FFF;
+  background-color: #00A4E5;
+  text-align: center;
 }
 
 
