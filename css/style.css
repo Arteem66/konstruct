@@ -8,7 +8,7 @@ body {
 
 .container {
   max-width: 1000px;
-  padding: 0 15px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -40,13 +40,23 @@ body {
   color: #FFF;
   font-size: 13px;
   font-weight: 700;
-  padding: 11px 29px;
+  padding: 12px 0;
   background-color: #00A4E5;
-  display: block;
+  width: 150px;
+  text-align: center;
 
-  line-height: normal;
   letter-spacing: 0.5px;
+
+  transition: all .5s;
 }
+
+
+.button:hover {
+  background-color: #236ed1;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
 
 /* ==================HEADER================= */
 /* ==================HEADER================= */
@@ -58,7 +68,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 770px;
-  padding: 40px 0 70px;
+  padding: 40px 30px 70px;
 }
 
 .header__text {
@@ -98,6 +108,14 @@ body {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1.091px;
+}
+
+.nav__link {
+  transition: color .5s;
+}
+
+.nav__link:hover {
+  color: #00A4E5;
 }
 
 .nav__link-ative {
@@ -159,6 +177,8 @@ body {
   display: flex;
   gap: 24px;
   align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .store__img {
@@ -167,6 +187,11 @@ body {
 
 .story__link {
   display: block;
+  transition: transform .5s;
+}
+
+.story__link:hover {
+  transform: scale(1.1);
 }
 
 .story__link p {
@@ -196,7 +221,7 @@ body {
   margin-bottom: 75px;
 }
 
-.capab__dop {
+.capab__right {
   display: flex;
   gap: 60px;
 }
@@ -219,6 +244,11 @@ body {
 .service {
   border: 1px solid #E6E6E6;
   max-width: 310px;
+  transition: transform .5s;
+}
+
+.service:hover {
+  transform: scale(1.1);
 }
 
 .service__link {
@@ -313,6 +343,14 @@ body {
   padding: 10px 16px;
 }
 
+.form__button {
+  transition: all .5s;
+}
+
+.form__button:hover {
+  transform: scale(1);
+}
+
 
 /* ==================FOOTER================= */
 /* ==================FOOTER================= */
@@ -392,4 +430,172 @@ body {
   background-color: #171819;
   text-align: center;
   color: #FFF;
+}
+
+/* ==================MEDIA================= */
+/* ==================MEDIA================= */
+
+@media screen and (max-width: 1000px) {
+
+  /* -------hedaer----- */
+
+  .header__top {
+    height: 700px;
+  }
+
+  .header__title {
+    font-size: 42px;
+  }
+
+  /* -------navigation----- */
+
+  .nav__list {
+    gap: 30px;
+  }
+
+  /* -------story----- */
+
+  .story__body {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  /* -------capab----- */
+
+  .capab__top {
+    gap: 30px;
+  }
+
+  .capab__right {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .capab__services {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  /* -------footer----- */
+
+  .contact__wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .capab__top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .capab__right {
+    align-items: center;
+  }
+
+  .capab__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .content__column {
+    align-items: center;
+  }
+
+  .company__wrapper {
+    align-items: center;
+  }
+
+  .company__wrapper p {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .links__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .links__column {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact__wrapper {
+    align-items: center;
+  }
+
+  .contact__column {
+    flex-direction: row;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .header__top{
+    height: 500px;
+  }
+
+  .header__title {
+    font-size: 32px;
+  }
+
+  .nav__wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav__list {
+    gap: 10px;
+  }
+
+  .sandbox__wrapper{
+    padding: 60px 0 150px;
+  }
+
+  .newsletter__wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact__column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__column p {
+    text-align: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 420px) {
+  .header__title{
+    font-size: 24px;
+  }
+
+  .container{
+    padding: 0 15px;
+  }
+
+  .newsletter__form {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
 }
